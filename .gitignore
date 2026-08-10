@@ -1,0 +1,7 @@
+data/profile.md
+data/plan.json
+data/plan.candidate.json
+data/status.json
+data/history.json
+.DS_Store
+node_modules/

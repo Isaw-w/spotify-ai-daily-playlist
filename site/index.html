@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Spotify AI Daily Playlist</title>
+  <meta name="description" content="An open-source Spicetify extension that lets Codex or Claude Code create a personalized Spotify playlist each day. Local and no OAuth required.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://isaw-w.github.io/spotify-ai-daily-playlist/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spotify AI Daily Playlist">
+  <meta property="og:description" content="Local AI-generated daily Spotify playlists using Codex or Claude Code.">
+  <meta property="og:url" content="https://isaw-w.github.io/spotify-ai-daily-playlist/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Spotify AI Daily Playlist",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Windows, macOS, Linux",
+    "description": "A local open-source AI daily playlist for Spotify, powered by Codex or Claude Code.",
+    "url": "https://isaw-w.github.io/spotify-ai-daily-playlist/",
+    "downloadUrl": "https://github.com/Isaw-w/spotify-ai-daily-playlist",
+    "isAccessibleForFree": true,
+    "license": "https://opensource.org/license/mit"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <strong>Spotify AI Daily Playlist</strong>
+    <a href="https://github.com/Isaw-w/spotify-ai-daily-playlist">Source</a>
+  </header>
+
+  <main>
+    <h1>AI daily playlists for Spotify</h1>
+    <p>A small Spicetify extension. You describe your taste in a text file, then Codex or Claude Code creates a new playlist for the day.</p>
+
+    <pre><code>git clone https://github.com/Isaw-w/spotify-ai-daily-playlist.git
+cd spotify-ai-daily-playlist
+npm run install-extension</code></pre>
+
+    <h2>Use</h2>
+    <ol>
+      <li>Edit <code>data/profile.md</code>.</li>
+      <li>Run <code>npm start</code>.</li>
+      <li>Ask Codex or Claude Code to create today's playlist.</li>
+    </ol>
+
+    <p class="facts">Local only. No Spotify OAuth app. No analytics. MIT licensed.</p>
+    <p>The extension changes one configured playlist. It does not change Liked Songs or other playlists.</p>
+  </main>
+
+  <footer>Not affiliated with Spotify, OpenAI, or Anthropic.</footer>
+</body>
+</html>

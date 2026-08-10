@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spotify AI Daily Playlist"
+  short_description: "Create today’s personalized Spotify playlist"
+  default_prompt: "Use $spotify-daily-playlist to create today’s personalized Spotify playlist."

@@ -1,0 +1,67 @@
+{
+  "date": "2099-01-01",
+  "generatedAt": "2099-01-01T07:00:00.000Z",
+  "dryRun": true,
+  "playlist": {
+    "name": "Today — AI Daily Playlist",
+    "description": "A small daily path from familiarity into discovery."
+  },
+  "tracks": [
+    {
+      "uri": "spotify:track:0000000000000000000001",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "anchor",
+      "reason": "Explain the connection to the listener's profile."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000002",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "anchor",
+      "reason": "Explain the connection to the listener's profile."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000003",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "bridge",
+      "reason": "Explain why this broadens the profile without breaking its character."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000004",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "bridge",
+      "reason": "Explain why this broadens the profile without breaking its character."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000005",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "bridge",
+      "reason": "Explain why this broadens the profile without breaking its character."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000006",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "bridge",
+      "reason": "Explain why this broadens the profile without breaking its character."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000007",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "discovery",
+      "reason": "Explain the thoughtful risk behind this recommendation."
+    },
+    {
+      "uri": "spotify:track:0000000000000000000008",
+      "name": "Replace with a verified track",
+      "artists": ["Verified artist"],
+      "role": "discovery",
+      "reason": "Explain the thoughtful risk behind this recommendation."
+    }
+  ]
+}

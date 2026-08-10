@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isaw-w.github.io/spotify-ai-daily-playlist/sitemap.xml
