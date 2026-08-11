@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A local, open-source AI daily playlist for Spotify, powered by Codex or Claude Code.",
+  "description": "A local, open-source daily Spotify playlist shaped by your taste, powered by Codex or Claude Code.",
   "scripts": {
     "start": "node server.mjs",
     "install-extension": "node scripts/install.mjs",

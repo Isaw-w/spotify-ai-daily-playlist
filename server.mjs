@@ -68,5 +68,5 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, "127.0.0.1", () => {
-  console.log(`Spotify AI Daily Playlist is ready at http://127.0.0.1:${port}`);
+  console.log(`Quiet Worlds is ready at http://127.0.0.1:${port}`);
 });

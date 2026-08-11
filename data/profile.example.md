@@ -1,4 +1,4 @@
-# My Spotify AI Daily Playlist taste profile
+# My Quiet Worlds taste profile
 
 Write this in your own language. Precision matters more than genre labels.
 

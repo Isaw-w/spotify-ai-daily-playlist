@@ -1,4 +1,4 @@
-/* Spotify AI Daily Playlist — local recommendations for Spicetify. MIT License. */
+/* Quiet Worlds — local recommendations for Spicetify. MIT License. */
 (function spotifyAiDailyPlaylist() {
   const S = globalThis.Spicetify;
   if (!S?.Platform?.RootlistAPI || !S?.Platform?.PlaylistAPI) {
@@ -25,7 +25,7 @@
         body: JSON.stringify({ updatedAt: new Date().toISOString(), ...body }),
       });
     } catch (error) {
-      console.warn("Spotify AI Daily Playlist status report failed", error);
+      console.warn("Quiet Worlds status report failed", error);
     }
   }
 
@@ -67,7 +67,7 @@
       playlistId: playlistUri.split(":").at(-1),
       selection: selection.map(({ uri, name, artists, role }) => ({ uri, name, artists, role })),
     });
-    S.showNotification(`AI Daily Playlist: ${selection.length} tracks ready`);
+    S.showNotification(`Quiet Worlds: ${selection.length} tracks ready`);
   }
 
   async function refresh() {

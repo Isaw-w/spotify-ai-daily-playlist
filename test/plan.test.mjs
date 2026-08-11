@@ -16,7 +16,7 @@ test("accepts a valid daily plan", () => {
   const date = localDateKey();
   const plan = {
     date,
-    playlist: { name: "Today — AI Daily Playlist" },
+    playlist: { name: "Quiet Worlds" },
     tracks: Array.from({ length: 13 }, (_, index) => track(index + 1)),
   };
   assert.deepEqual(validatePlan(plan), []);

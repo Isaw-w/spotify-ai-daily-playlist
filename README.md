@@ -1,6 +1,6 @@
-# Spotify AI Daily Playlist
+# Quiet Worlds
 
-Get one AI-recommended Spotify playlist every day. Codex or Claude Code reads a taste profile you write, finds exact playable tracks, and sends the finished selection to Spotify through a small local Spicetify extension.
+Get one carefully chosen Spotify playlist every day. Codex or Claude Code reads a taste profile you write, finds exact playable tracks, and sends the finished selection to Spotify through a small local Spicetify extension.
 
 No Spotify OAuth app, hosted backend, analytics, advertising, or separate AI API bill.
 
@@ -22,7 +22,7 @@ npm start
 
 Invoke `$spotify-daily-playlist` in Codex or `/spotify-daily-playlist` in Claude Code.
 
-## What the AI selects
+## What Quiet Worlds selects
 
 The default daily list has 13 tracks: four familiar anchors, six close bridges, and three bolder discoveries. Your foundations, atmosphere, exclusions, and seasonal rules are written in plain language. Recommendations used during the previous seven days are avoided unless your profile asks for recurring anchors.
 

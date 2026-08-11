@@ -31,4 +31,4 @@ for (const args of [["config", "extensions", "spotify-ai-daily-playlist.js"], ["
     process.exit(1);
   }
 }
-console.log(`Installed Spotify AI Daily Playlist for Codex and Claude Code.\nEdit ${profile} to describe your taste.`);
+console.log(`Installed Quiet Worlds for Codex and Claude Code.\nEdit ${profile} to describe your taste.`);
