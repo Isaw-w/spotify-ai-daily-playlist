@@ -6,7 +6,7 @@ Write UTF-8 JSON with this shape:
 {
   "date": "YYYY-MM-DD",
   "playlist": {
-    "name": "Quiet Worlds",
+    "name": "Today — Quiet Worlds",
     "description": "A short description"
   },
   "tracks": [
